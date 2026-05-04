@@ -1,3 +1,12 @@
+###########################################################################################
+# This is an example yaml file for the EMV3 Lite board. This will also apply to the standard
+# EMV3 board but will be missing one relay output and one bank of ADS1115 analog inputs.
+# It should be fairly straight forward to add them for the EMV3 moduel, the second ADS1115 
+# is at address 0x49 and the second relay output is on GPIO19. Al;so the Touch screen function
+# currently not programmed.
+# this code is fouond here: https://github.com/cnjboards/EMV3Lite-Esphome
+###########################################################################################
+
 esphome:
   name: emv3lite
   friendly_name: EMV3Lite
